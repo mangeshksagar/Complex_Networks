@@ -1,5 +1,5 @@
 # Program For Computing Eigen Values Of Laplacian:-
-lesmis <- read.delim("/nfs/cms/mtech18/mangesh.kshirsagar/Desktop/CN-1/CN Assignment-1/final/Final_Submission/Questions/lesmis.dat",header = F,sep = ",")
+lesmis <- read.delim("lesmis.dat",header = F,sep = ",")
 
 d <- data.frame((lesmis[,1] + 1),(lesmis[,2] + 1)) 
 n <- max(d) #No. of vertices
