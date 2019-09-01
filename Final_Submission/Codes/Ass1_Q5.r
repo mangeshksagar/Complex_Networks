@@ -1,5 +1,5 @@
-dirneural <- read.delim("/nfs/cms/mtech18/mangesh.kshirsagar/Desktop/CN-1/CN Assignment-1/final/Final_Submission/Questions/dirneural.dat",header = F,sep = ",")
-celegans <- read.delim("/nfs/cms/mtech18/mangesh.kshirsagar/Desktop/CN-1/CN Assignment-1/final/Final_Submission/Questions/celegans.dat",header = F,sep = ",")
+dirneural <- read.delim("dirneural.dat",header = F,sep = ",")
+celegans <- read.delim("celegans.dat",header = F,sep = ",")
 
 #a <- matrix(c(0,0,0,0,0,1,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,0,0,1,0),
 #            byrow = T,5,5,dimnames = list(c(seq(1,5)),c(seq(1,5))))
