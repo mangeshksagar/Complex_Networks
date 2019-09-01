@@ -1,4 +1,4 @@
-polbooks <- read.delim("/nfs/cms/mtech18/mangesh.kshirsagar/Desktop/CN-1/CN Assignment-1/final/Final_Submission/Questions/polbooks.dat", header = F, sep = ",")
+polbooks <- read.delim("polbooks.dat", header = F, sep = ",")
 d <- data.frame((polbooks[,1] + 1),(polbooks[,2] + 1)) 
 n <- max(d)
 a <- matrix(0,n,n)
