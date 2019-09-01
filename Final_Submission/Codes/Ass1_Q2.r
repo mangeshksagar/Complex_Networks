@@ -1,5 +1,5 @@
-lesmis <- read.delim("/nfs/cms/mtech18/mangesh.kshirsagar/Desktop/CN-1/CN Assignment-1/final/Final_Submission/Questions/lesmis.dat",header = F,sep = ",")
-polbooks <- read.delim("/nfs/cms/mtech18/mangesh.kshirsagar/Desktop/CN-1/CN Assignment-1/final/Final_Submission/Questions/polbooks.dat", header = F, sep = ",")
+lesmis <- read.delim("lesmis.dat",header = F,sep = ",")
+polbooks <- read.delim("polbooks.dat", header = F, sep = ",")
 d <- data.frame((lesmis[,1] + 1),(lesmis[,2] + 1)) 
 n <- max(d) #No. of vertices
 a <- matrix(0,n,n,dimnames = list(c(seq(1:77)),c(seq(1:77))))
