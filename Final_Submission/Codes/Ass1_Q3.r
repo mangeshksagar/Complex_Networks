@@ -1,4 +1,4 @@
-celegans <- as.matrix(read.delim("/nfs/cms/mtech18/mangesh.kshirsagar/Desktop/CN-1/CN Assignment-1/final/Final_Submission/Questions/celegans.dat",header = F,sep = ","))
+celegans <- as.matrix(read.delim("celegans.dat",header = F,sep = ","))
 celegans_t <- t(celegans)
 cocitation_mat <- celegans%*%elegans_t
 bibiliographic_mat <- celegans_t%*%celegans
