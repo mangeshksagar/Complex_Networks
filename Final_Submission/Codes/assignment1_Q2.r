@@ -1,7 +1,7 @@
 #Q2
 #Input
-filename <- "/nfs/cms/mtech18/mangesh.kshirsagar/Desktop/CN-1/CN Assignment-1/lesmis.dat"
-#filename <- "/nfs/cms/mtech18/mangesh.kshirsagar/Desktop/CN-1/CN Assignment-1/polbooks.dat"
+filename <- "lesmis.dat"
+#filename <- "polbooks.dat"
 data <- read.delim(filename,header=FALSE,sep=",")
 data1 <- data[1] + rep(1,nrow(data))
 data1[2] <- data[2] + rep(1,nrow(data))
