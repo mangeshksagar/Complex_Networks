@@ -9,7 +9,7 @@ A large number of real-world systems like Facebook, air-transport, metabolic rea
        d)Bilogical networks
 
 ## 2. Mathematics of networks.
-    (a) Mathematical representation, Adjacency matrix.
+    (a)Mathematical representation, Adjacency matrix.
     (b)Weighted, directed, bipartite and temporal/dynamic networks.
     (c)Trees, planar graphs.
     (d)Degree, paths, components.
@@ -32,4 +32,4 @@ A large number of real-world systems like Facebook, air-transport, metabolic rea
     (b) Watts-Strogatz model (Emphasis on small-world effect).
     (c) Price/Barabasi-Albert graph (Emphasis on emergence of power-law through prefer-ential attachment), Master equation.
     (d) Computer simulations of the three models.
-    (e) (Optional) Further properties of the preferential attachment models. Extensions ofpreferential attachment models. Vertex copying models
+    (e) (Optional) Further properties of the preferential attachment models. Extensions ofpreferential attachment models.Vertex copying models
